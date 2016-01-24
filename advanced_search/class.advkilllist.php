@@ -8,7 +8,7 @@ require_once('class.searchquery.php');
 /* advanced kill list - mimics the KillList class so it could work with KillListTable and PageSplitter */
 class AdvKillList
 {
-    function AdvKillList()
+    function __construct()
     {
         $this->qry_ = new SearchQuery();
         

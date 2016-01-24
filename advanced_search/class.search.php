@@ -7,9 +7,9 @@ require_once("common/includes/class.pagesplitter.php");
 
 class AdvSearch
 {
-	function replace(&$object)
+	static function replace(&$object)
 	{
-                require_once("common/includes/class.killlisttable.php");
+		require_once("common/includes/class.killlisttable.php");
 		$replace_search = config::get('adv_search_replace_search') == "true";
 		
 		if ($replace_search or $_REQUEST['p'] == "adv_search")
@@ -29,7 +29,7 @@ class AdvSearch
 		return "<a href=\"?a=search&p=adv_search\"><div class=block-header>▼ Advanced Options</div></a>\n";
 	}
 	
-	function start($object)
+	static function start($object)
 	{
 		/* advanced search */
 		$object->page->setTitle('Advanced Search');
@@ -38,7 +38,7 @@ class AdvSearch
 		session_start();
 	}
 	
-	function advSrch($object)
+	static function advSrch($object)
 	{
 		/* init variables */
 		global $smarty;

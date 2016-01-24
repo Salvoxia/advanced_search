@@ -6,4 +6,4 @@ event::register("search_assembling", "AdvSearch::replace");
 
 $modInfo['advanced_search']['name'] = "Advanced Search";
 $modInfo['advanced_search']['abstract'] = "Adds many different custom search criterea to a custom search dialogue, creates links for sharing search result";
-$modInfo['advanced_search']['about'] = "Version 2.7.2 by <b>Sonya Rayner</b>, fixed by <b>Redhouse</b>, enhanced for better compatibility by <b>Salvoxia</b>";
+$modInfo['advanced_search']['about'] = "Version ".ADV_SRCH_VERSION." by <b>Sonya Rayner</b>, fixed by <b>Redhouse</b>, enhanced for better compatibility by <b>Salvoxia</b>";
