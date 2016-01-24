@@ -1,0 +1,31 @@
+.searchfield
+{
+	width: 256px;
+}
+
+.searchlabel
+{
+	padding: 0 2px;
+	text-align: right;
+}
+
+.searchvalue
+{
+	padding: 2px;
+}
+
+.searchbutton
+{
+	padding: 0;
+	text-align: right;
+}
+
+.search-info
+{
+	text-align: justify;
+}
+
+table, div, td, tr
+{
+	/*border: 1px solid white; /**/
+}
