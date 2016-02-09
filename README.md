@@ -1,5 +1,6 @@
 # advanced_search
 Advanced Search Mod for Eve Development Killboard
+
 By Sonya Rayner, fixed by Redhouse, enhanced for better compatibility and maintained by Salvoxia
 
 ##Installation
